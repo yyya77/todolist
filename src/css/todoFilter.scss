@@ -1,0 +1,21 @@
+.container {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+}
+.filters {
+  display: flex;
+  align-items: center;
+  margin: 24px 2px;
+  color: #c0c2ce;
+}
+.filter {
+  margin-right: 14px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.active {
+  font-weight: bold;
+  font-size: 20px;
+  color: #1890ff;
+}
